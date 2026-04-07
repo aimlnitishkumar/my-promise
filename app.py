@@ -90,7 +90,7 @@ if st.button('Begin My Promise'):
             st.markdown(f"""
                 <div class="love-card">
                     <span class="heart-icon">❤</span>
-                    <span class="message-text"><b>{i}.</b> I Love You Forever</span>
+                    <span class="message-text"> I Love You Forever</span>
                 </div>
             """, unsafe_allow_html=True)
         
