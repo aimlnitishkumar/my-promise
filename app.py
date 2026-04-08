@@ -97,7 +97,7 @@ if st.button('Begin My Promise'):
         # Inject JS to follow the newest message
         components.html(scroll_js, height=0, width=0)
         
-        time.sleep(0.3) # 1 second delay as requested
+        time.sleep(0.1) # 1 second delay as requested
 
     # Final Celebration
     st.balloons()
